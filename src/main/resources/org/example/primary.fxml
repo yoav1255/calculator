@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#keyPressed" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.PrimaryController">
+   <children>
+      <Button fx:id="a_Button" layoutX="57.0" layoutY="147.0" mnemonicParsing="false" onAction="#add_A" onKeyPressed="#keyPressed" prefHeight="30.0" prefWidth="50.0" text="A" />
+      <Button fx:id="b_Button" layoutX="57.0" layoutY="200.0" mnemonicParsing="false" onAction="#add_B" onKeyPressed="#keyPressed" prefHeight="30.0" prefWidth="50.0" text="B" />
+      <Button fx:id="one_Button" layoutX="150.0" layoutY="200.0" mnemonicParsing="false" onAction="#add_one" onKeyPressed="#keyPressed" prefHeight="30.0" prefWidth="50.0" text="1" />
+      <Button fx:id="two_Button" layoutX="233.0" layoutY="200.0" mnemonicParsing="false" onAction="#add_two" onKeyPressed="#keyPressed" prefHeight="30.0" prefWidth="50.0" text="2" />
+      <Button fx:id="three_Button" layoutX="315.0" layoutY="200.0" mnemonicParsing="false" onAction="#add_three" onKeyPressed="#keyPressed" prefHeight="30.0" prefWidth="50.0" text="3" />
+      <Button fx:id="c_Button" layoutX="57.0" layoutY="238.0" mnemonicParsing="false" onAction="#add_C" onKeyPressed="#keyPressed" prefHeight="30.0" prefWidth="50.0" text="C" />
+      <Button fx:id="four_Button" layoutX="150.0" layoutY="238.0" mnemonicParsing="false" onAction="#add_four" onKeyPressed="#keyPressed" prefHeight="30.0" prefWidth="50.0" text="4" />
+      <Button fx:id="five_Button" layoutX="233.0" layoutY="238.0" mnemonicParsing="false" onAction="#add_five" onKeyPressed="#keyPressed" prefHeight="30.0" prefWidth="50.0" text="5" />
+      <Button fx:id="six_Button" layoutX="315.0" layoutY="238.0" mnemonicParsing="false" onAction="#add_six" onKeyPressed="#keyPressed" prefHeight="30.0" prefWidth="50.0" text="6" />
+      <Button fx:id="d_Button" layoutX="58.0" layoutY="276.0" mnemonicParsing="false" onAction="#add_D" onKeyPressed="#keyPressed" prefHeight="30.0" prefWidth="50.0" text="D" />
+      <Button fx:id="seven_Button" layoutX="151.0" layoutY="276.0" mnemonicParsing="false" onAction="#add_seven" onKeyPressed="#keyPressed" prefHeight="30.0" prefWidth="50.0" text="7" />
+      <Button fx:id="eight_Button" layoutX="234.0" layoutY="276.0" mnemonicParsing="false" onAction="#add_eight" onKeyPressed="#keyPressed" prefHeight="30.0" prefWidth="50.0" text="8" />
+      <Button fx:id="nine_Button" layoutX="316.0" layoutY="276.0" mnemonicParsing="false" onAction="#add_nine" onKeyPressed="#keyPressed" prefHeight="30.0" prefWidth="50.0" text="9" />
+      <Button fx:id="e_Button" layoutX="58.0" layoutY="320.0" mnemonicParsing="false" onAction="#add_E" onKeyPressed="#keyPressed" prefHeight="30.0" prefWidth="50.0" text="E" />
+      <Button fx:id="plus_Button" layoutX="151.0" layoutY="320.0" mnemonicParsing="false" onAction="#add_plus" onKeyPressed="#keyPressed" prefHeight="30.0" prefWidth="50.0" text="+" />
+      <Button fx:id="minus_Button" layoutX="234.0" layoutY="320.0" mnemonicParsing="false" onAction="#add_minus" onKeyPressed="#keyPressed" prefHeight="30.0" prefWidth="50.0" text="-" />
+      <Button fx:id="zero_Button" layoutX="316.0" layoutY="320.0" mnemonicParsing="false" onAction="#add_zero" onKeyPressed="#keyPressed" prefHeight="30.0" prefWidth="50.0" text="0" />
+      <Button fx:id="f_Button" layoutX="58.0" layoutY="360.0" mnemonicParsing="false" onAction="#add_F" onKeyPressed="#keyPressed" prefHeight="30.0" prefWidth="50.0" text="F" />
+      <Button fx:id="mul_Button" layoutX="151.0" layoutY="360.0" mnemonicParsing="false" onAction="#add_mul" onKeyPressed="#keyPressed" prefHeight="30.0" prefWidth="50.0" text="*" />
+      <Button fx:id="div_Button" layoutX="234.0" layoutY="360.0" mnemonicParsing="false" onAction="#add_div" onKeyPressed="#keyPressed" prefHeight="30.0" prefWidth="50.0" text="/" />
+      <Button fx:id="equal_Button" layoutX="316.0" layoutY="360.0" mnemonicParsing="false" onAction="#sum" onKeyPressed="#keyPressed" prefHeight="30.0" prefWidth="50.0" text="=" />
+      <ComboBox fx:id="list_box" layoutX="142.0" layoutY="147.0" onAction="#chooseFromList" prefWidth="150.0" promptText="select..." />
+      <Button fx:id="clear_button" layoutX="314.0" layoutY="147.0" mnemonicParsing="false" onAction="#clearTextArea" prefHeight="30.0" prefWidth="50.0" text="Clear" />
+      <TextField fx:id="summaryTF" alignment="TOP_LEFT" disable="true" layoutX="88.0" layoutY="46.0" opacity="0.62" prefHeight="73.0" prefWidth="228.0">
+         <font>
+            <Font size="15.0" />
+         </font></TextField>
+      <TextField fx:id="val" alignment="CENTER_RIGHT" disable="true" layoutX="181.0" layoutY="81.0" opacity="0.98" prefHeight="38.0" prefWidth="134.0" style="-fx-background-color: transparent;">
+         <font>
+            <Font size="17.0" />
+         </font></TextField>
+   </children>
+</AnchorPane>
